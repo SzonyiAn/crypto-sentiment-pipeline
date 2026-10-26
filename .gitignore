@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+.venv/
+
+# Generated data layers (they can always be rebuilt by running the pipeline)
+data/raw/
+data/staged/
+data/curated/
+
+# The full Kaggle download is not committed; only a small sample is (data/sample/)
+data/source/
+
+# Run logs
+logs/
+
+# Secrets
+.env
+
+# macOS
+.DS_Store
