@@ -211,7 +211,7 @@ The individual steps can also be run alone: `python ingest.py`, `python transfor
    ```bash
    sudo apt update
    sudo apt install -y openjdk-17-jre-headless python3-venv git unzip
-   git clone https://github.com/<your-user>/crypto-sentiment-pipeline.git
+   git clone https://github.com/SzonyiAn/crypto-sentiment-pipeline.git
    cd crypto-sentiment-pipeline
    python3 -m venv .venv
    source .venv/bin/activate
